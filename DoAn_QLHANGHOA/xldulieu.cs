@@ -18,7 +18,7 @@ namespace DoAn_QLHANGHOA.Class
         {
             con = new SqlConnection();
             //con.ConnectionString = @"Data Source=LAPTOP-IR7RN1J2\MSSQLSERVER01;Initial Catalog=DoAn_QLHANGHOA;Persist Security Info=True;User ID=sa;Password=11015208";
-            con.ConnectionString = @"Data Source=LAPTOP-KQC1SA87;Initial Catalog=DoAn_QLHANGHOA;Persist Security Info=True";
+            con.ConnectionString = @"Data Source=LAPTOP-KQC1SA87;Initial Catalog=DoAn_QLHANGHOA;Persist Security Info=True;User ID=sa;Password=1";
             con.Open();
             if (con.State == ConnectionState.Open)
                 MessageBox.Show("Kết nối thành công!");
